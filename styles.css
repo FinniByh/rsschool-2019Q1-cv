@@ -92,13 +92,13 @@
     text-decoration: none;
 }
 
-.aims {
+.goes {
     background-color: #f0ff4e;
     display: flex;
     justify-content: space-between;
 }
 
-.aimsImage img {
+.goesImage img {
     position: relative;
     bottom: 130px;
     width: 200px;
@@ -108,19 +108,19 @@
     border-radius: 50%;
 }
 
-.aimsText{
+.goesText{
     width: 600px;
     margin-right: 50px;
     font-family: sans-serif;
 }
 
-.aimTitle p{
+.goesTitle p{
     margin: 10px 0 10px 15px;
     font-size: 18pt;
     color: #3a3e0e;
 }
 
-.aimDescription {
+.goesDescription {
     font-size: 14pt;
     color: #6f7808;
     text-align: justify;
