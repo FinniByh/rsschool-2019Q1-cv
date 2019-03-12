@@ -218,3 +218,15 @@
 .workDescription a:hover {
     color: white;
 }
+
+.footer {
+    padding-top: 10px;
+    height: 30px;
+    background-color: black;
+}
+
+.footer p {
+    text-align: center;
+    color: #857575;
+    font-family: sans-serif;
+}
