@@ -91,3 +91,37 @@
     color: #746e6e;
     text-decoration: none;
 }
+
+.aims {
+    background-color: #f0ff4e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aimsImage img {
+    position: relative;
+    bottom: 130px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 15px 0 20px;
+    background-color: #f0ff4e;
+    border-radius: 50%;
+}
+
+.aimsText{
+    width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.aimTitle p{
+    margin: 10px 0 10px 15px;
+    font-size: 18pt;
+    color: #3a3e0e;
+}
+
+.aimDescription {
+    font-size: 14pt;
+    color: #6f7808;
+    text-align: justify;
+}
