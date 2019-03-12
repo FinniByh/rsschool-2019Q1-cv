@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #5f0700;
+    height: 65px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    float: right;
+    margin: 15px 10px 0 10px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+.header a:hover {
+    color: yellow;
+}
+
+.aboutMe {
+    padding-top: 30px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.image img{
+    height: 200px;
+    width: 200px;
+}
+
+.textAboutMe {
+    max-width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.name p, .contacts p {
+    font-size: 18pt;
+    color: white;
+    margin: 10px 0 10px 15px;
+}
+
+.position p {
+    font-size: 14pt;
+    color: #746e6e;
+    margin-bottom: 10px;
+}
+
+.description p {
+    text-align: justify;
+    color: #746e6e;
+}
+
+.contactsDescription i {
+    color: red;
+}
+
+.contactsDescription p {
+    margin-top: 5px;
+    color: #746e6e;
+}
+
+.contactsDescription a {
+    color: #746e6e;
+    text-decoration: none;
+}
+
+.aims {
+    background-color: #f0ff4e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aimsImage img {
+    position: relative;
+    bottom: 130px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 15px 0 20px;
+    background-color: #f0ff4e;
+    border-radius: 50%;
+}
+
+.aimsText{
+    width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.aimTitle p{
+    margin: 10px 0 10px 15px;
+    font-size: 18pt;
+    color: #3a3e0e;
+}
+
+.aimDescription {
+    font-size: 14pt;
+    color: #6f7808;
+    text-align: justify;
+}
+
+.skills {
+    background-color: #ffa018;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsImage img {
+    position: relative;
+    bottom: 130px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 15px 0 20px;
+    background-color: #ffa018;
+    border-radius: 50%;
+}
+
+.skillsText{
+    width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.skillTitle p{
+    margin: 10px 0 10px 15px;
+    font-size: 18pt;
+    color: #e10000;
+}
+
+.skillDescription {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillDescription p{
+    font-size: 14pt;
+    color: #fff724;
+    text-align: justify;
+}
+
+.skillDescription i{
+    font-size: 16pt;
+    color: blue;
+    margin: 5px;
+}
+
+.works {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.worksImage img {
+    position: relative;
+    bottom: 130px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 15px 0 20px;
+    border-radius: 50%;
+}
+
+.worksText{
+    width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.workTitle p{
+    margin: 10px 0 10px 15px;
+    font-size: 18pt;
+    color: white;
+}
+
+.workDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.workDescription span {
+    margin-top: 5px;
+}
+
+.workDescription a{
+    font-size: 14pt;
+    color: #857575;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.workDescription a:hover {
+    color: white;
+}
+
+.footer {
+    padding-top: 10px;
+    height: 30px;
+    background-color: black;
+}
+
+.footer p {
+    text-align: center;
+    color: #857575;
+    font-family: sans-serif;
+}
