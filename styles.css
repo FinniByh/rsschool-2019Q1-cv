@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #5f0700;
+    height: 65px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    float: right;
+    margin: 15px 10px 0 10px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+.header a:hover {
+    color: yellow;
+}
