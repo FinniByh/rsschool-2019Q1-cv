@@ -171,3 +171,50 @@
     color: blue;
     margin: 5px;
 }
+
+.works {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.worksImage img {
+    position: relative;
+    bottom: 130px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 15px 0 20px;
+    border-radius: 50%;
+}
+
+.worksText{
+    width: 600px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.workTitle p{
+    margin: 10px 0 10px 15px;
+    font-size: 18pt;
+    color: white;
+}
+
+.workDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.workDescription span {
+    margin-top: 5px;
+}
+
+.workDescription a{
+    font-size: 14pt;
+    color: #857575;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.workDescription a:hover {
+    color: white;
+}
